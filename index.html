@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF & Image to Excel</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0ea5e9">
+</head>
+<body>
+<div class="container">
+  <h1>تحويل PDF / صور إلى Excel</h1>
+  <input type="file" id="fileInput" accept=".pdf,image/*" multiple>
+  <button id="processBtn">معالجة الملفات</button>
+  <button id="downloadExcelBtn">تحميل Excel</button>
+  <button id="downloadCSVBtn">تحميل CSV</button>
+  <div id="tableContainer"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
